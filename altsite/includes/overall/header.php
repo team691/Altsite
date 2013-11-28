@@ -1,12 +1,20 @@
-       <!DOCTYPE html>
-
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
 
 <head>
     <title>Project 691 Robotics</title>
     <meta charset="utf-8">
-    <link href="css/ajxmenu.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/ajxmenu.css" >
 	<link rel="stylesheet" type="text/css" href="view.css">
+    <link rel="apple-touch-icon" href="images/icon/apple-touch-icon.png" /><!--your-custom-icon-for-iphone.png-->
+	<link rel="apple-touch-icon" sizes="72x72" href="images/icon/apple-touch-icon.png" /><!--your-custom-icon-for-ipad.png-->
+	<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon.png" /><!--your-custom-icon-for-iphone4.png-->
     <style type="text/css">
     body,td,th {
 	color: #000;
@@ -16,6 +24,8 @@
 	background-color:#202332;
 	text-align:center;
 	font-family:"Arial", sans-serif;
+	width:auto;
+	height:auto;
 	margin:0;
 	padding:0;
 }
@@ -39,9 +49,9 @@
 </head>
 
 <body>
-<table width="1050" border="0" align="center">
+<table border="0" align="center">
   <tr>
-    <td colspan="2"><a href="."><img src="banner.png" width="1050" height="224"></a></td>
+    <td colspan="2"><a href="."><img src="banner.png" width="1000" height="224"></a></td>
   </tr>
   <tr>
     <td colspan="2"><div class="AJXCSSMenuNUASNJA"><!-- AJXFILE:ajxmenu.css -->
