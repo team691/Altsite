@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*
+ Ajatix Advanced CSS Drop Down Menu
+ Copyright (C) 2009-2013 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuNUASNJA {position:relative;z-index:100;width:100%;background:#aa0000;}
+.AJXCSSMenuNUASNJA ul {position:relative;display:inline-block;margin:0;padding:0;list-style-type:none;}
+*+html .AJXCSSMenuNUASNJA ul {display:inline;}
+.AJXCSSMenuNUASNJA li {float:left;margin:0;padding:0px 50px 0px 0;}
+.AJXCSSMenuNUASNJA li.tlast {padding-right:0px;}
+.AJXCSSMenuNUASNJA li:hover,.AJXCSSMenuNUASNJA li.ajxover {position:relative;}
+.AJXCSSMenuNUASNJA li a {display:block;float:left;height:34px;white-space:nowrap;overflow:hidden;padding:0 12px 0 0;font:bold 16px Arial,Helvetica,sans-serif;line-height:34px;text-decoration:none;text-align:left;color:#ffffff;background:#aa0000;}
+.AJXCSSMenuNUASNJA a span {display:block;padding:0 0 0 12px;}
+.AJXCSSMenuNUASNJA li:hover > a,.AJXCSSMenuNUASNJA li.ajxover > a {background:#cc0000;}
+.AJXCSSMenuNUASNJA li:hover > a span,.AJXCSSMenuNUASNJA li.ajxover > a span {background:none;}
+.AJXCSSMenuNUASNJA li ul {position:absolute;left:-9999px;top:-9999px;width:196px;height:auto;display:inline-block;vertical-align:top;font-size:0;float:none;margin:0;background:#aa0000;}
+.AJXCSSMenuNUASNJA li:hover > ul,.AJXCSSMenuNUASNJA li.ajxover > ul {left:0px;top:34px;}
+.AJXCSSMenuNUASNJA li li {width:190px;padding:0 3px 0px 3px;}
+.AJXCSSMenuNUASNJA li li.slast {padding-bottom:3px;}
+.AJXCSSMenuNUASNJA li li a {float:none;margin:0;width:158px;height:auto;white-space:normal;padding:6px 20px 6px 12px;font:12px Arial,Helvetica,sans-serif;line-height:12px;border:0;}
+.AJXCSSMenuNUASNJA li:hover li a,.AJXCSSMenuNUASNJA li.ajxover li a {font-style:normal;font-weight:normal;text-decoration:none;color:#ffffff;background:#c60000;}
+.AJXCSSMenuNUASNJA li li.sfirst > a {margin-top:3px;}
+.AJXCSSMenuNUASNJA li li:hover > a,.AJXCSSMenuNUASNJA li li.ajxover > a {background:#900000;}
+.AJXCSSMenuNUASNJA .timg {padding:0;}
+.AJXCSSMenuNUASNJA img {position:fixed;left:0;top:0;width:0;height:0;z-index:-1;display:none;}
+.AJXCSSMenuNUASNJA li.tsub:hover ~ li img {width:100%;height:100%;display:block;}
