@@ -1,16 +1,32 @@
-<!DOCTYPE html>
+       <!DOCTYPE html>
 
 <html>
 
 <head>
     <title>Project 691 Robotics</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="ajxmenu.css">
+    <meta charset="utf-8">
+    <link href="css/ajxmenu.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="view.css">
+    <style type="text/css">
+    body,td,th {
+	color: #000;
+}
+
+	body {
+	background-color:#202332;
+	text-align:center;
+	font-family:"Arial", sans-serif;
+	margin:0;
+	padding:0;
+}
+
+    </style>
+    <link href="../../SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="view.js"></script>
-    <script type="text/javascript" src="./SpryAccordion.js"></script>
+
 	<script type="text/javascript" src="ajxmenu.js"></script>
-    <script type="text/javascript">
+	<script src="../../SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+	<script type="text/javascript">
 		function MM_preloadImages() 
 			{ //v3.0
 			  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
@@ -23,10 +39,12 @@
 </head>
 
 <body>
-
-	<a href="."><img class="logo" src="./banner.png"></a>
-		
-			<div class="AJXCSSMenuNUASNJA"><!-- AJXFILE:ajxmenu.css -->
+<table width="1050" border="0" align="center">
+  <tr>
+    <td colspan="2"><a href="."><img src="banner.png" width="1050" height="224"></a></td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="AJXCSSMenuNUASNJA"><!-- AJXFILE:ajxmenu.css -->
     <ul>
       <li><a href="./" target="_parent" title="Home"><span>Home</span></a></li>
       <li class="tsub"><a class="ajxsub" href="sponsors.php" target="_parent" title="Sponsors"><span>Sponsors</span></a>
@@ -66,10 +84,9 @@
       <li class="tlast"><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&amp;SESSION=zhoHMm9LNKPNUDdRtBVm5LnNyRSpg0BqTgbawOZ-WwS7iHEPTXrxMwnUF1C&amp;dispatch=5885d80a13c0db1f8e263663d3faee8def8934b92a630e40b7fef61ab7e9fe63" target="_parent" title="Donate"><span>Donate</span></a></li>
       <li class="timg"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt=""/></li>
     </ul>
-</div>
-     
-
-
-<a class="twitter-timeline" href="https://twitter.com/project691" data-widget-id="392037085814587393">Tweets by @project691</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    
- 
+</div></td>
+  </tr>
+  <tr>
+    <td width="25%" align="center" valign="top"><a class="twitter-timeline" href="https://twitter.com/project691" data-widget-id="392037085814587393">Tweets by @project691</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td>
+    <td width="900" align="center" valign="top" bgcolor="#FFFFFF">     
+   

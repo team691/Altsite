@@ -1,6 +1,5 @@
 <?php include 'includes/overall/header.php'; ?>    
-        <!-- PAGE START -->
-        <div id="page" class="page">
+
 <!--DO_NOT_TOUCH_THE_LINE_ABOVE_ENTER_TEXT_BELOW_THIS_LINE-->
 <table width="100%" border="0">
   <tr>
